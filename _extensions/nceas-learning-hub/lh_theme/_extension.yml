@@ -6,8 +6,8 @@ contributes:
   formats:
     html:
       theme:
-        - lh_light.scss
-        - lh_dark.scss
+        light: lh_light.scss
+        dark: lh_dark.scss
       css:
         - lh_style.css
   filters:
