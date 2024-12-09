@@ -8,8 +8,15 @@ contributes:
       theme:
         light: lh_light.scss
         dark: lh_dark.scss
-      css:
-        - lh_style.css
+      css: lh_style.css
+      toc: true
+      number-sections: true
+      code-overflow: wrap
+      code-line-numbers: false
+      code-copy: hover
+      link-external-newwindow: true
+      link-external-icon: false
+      title-block-banner: "#44444444"
   filters:
     - callout_exercise.lua
 ### Keep minimal here - leave things like TOC and number sections in the
