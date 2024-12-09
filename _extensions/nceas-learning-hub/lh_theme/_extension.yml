@@ -8,7 +8,8 @@ contributes:
       theme:
         - lh_light.scss
         - lh_dark.scss
-      css: lh-style.css
+      css:
+        - lh_style.css
   filters:
     - callout_exercise.lua
 ### Keep minimal here - leave things like TOC and number sections in the
