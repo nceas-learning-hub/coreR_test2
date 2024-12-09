@@ -12,8 +12,8 @@ bibliography: book.bib
 format:
   html:
     theme:
-       light: lh_light.scss
-       dark: lh_dark.scss
+       light: _extensions/nceas-learning-hub/lh_theme/lh_light.scss
+       dark: _extensions/nceas-learning-hub/lh_theme/lh_dark.scss
     css: lh_style.css
       ### doesn't render NCEAS logo if put in scss file?
       ### seems to work locally but not when published on GitHub
@@ -26,7 +26,7 @@ website:
   reader-mode: false
   repo-url: https://github.com/nceas-learning-hub/coreR_test2
 
-  favicon: _extensions/nceas-learning-hub/lh_theme/logo-lh-hex.png # learning hub logo on browser tab
+  favicon: _extensions/nceas-learning-hub/lh_theme/logo_lh_hex.png # learning hub logo on browser tab
 
   bread-crumbs: false
   navbar:
