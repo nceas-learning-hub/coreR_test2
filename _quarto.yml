@@ -4,13 +4,19 @@ project:
 
 filters:
 - nceas-learning-hub/lh_theme
-exercises: ### for custom theme callouts
-  number: false ### see https://cambiotraining.github.io/quarto-course-template/materials/02-content_guidelines.html but does not work
 editor: source
-bibliography: book.bib
+# bibliography: book.bib
 
 format:
-  lh_theme-html
+  html:
+    theme: ### can only point to scss, not css
+       light: _extensions/nceas-learning-hub/lh_theme/lh_light.scss
+       dark: _extensions/nceas-learning-hub/lh_theme/lh_dark.scss
+    css: _extensions/nceas-learning-hub/lh_theme/lh_style.css   ### doesn't render NCEAS logo if put in scss file?
+    toc: true
+    number-sections: true
+    title-block-banner: "#00000044" ### need something here to "turn on" the title-block-banner
+
 
 website:
   title: "coreR_test2 (2024-01-01 - 2024-12-31)"
